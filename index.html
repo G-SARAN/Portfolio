@@ -4,6 +4,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
+
+  <script>
+    // Redirect to the correct case-sensitive Portfolio URL if needed
+    const correctURL = "https://g-saran.github.io/Portfolio/";
+    const currentURL = window.location.href;
+    const path = window.location.pathname.toLowerCase();
+
+    if (path.includes("portfolio") && currentURL !== correctURL) {
+      window.location.replace(correctURL);
+    } else if (path !== "/Portfolio/") {
+      // Redirect any other root-level or incorrect paths to the correct one
+      window.location.replace(correctURL);
+    }
+  </script>
+
   <style>
     body {
       font-family: Arial, sans-serif;
