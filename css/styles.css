@@ -478,6 +478,8 @@ span {
 
     .about img {
         width: 70vh;
+        max-width: 100%
+        height: auto;
         margin-top: 4rem;
     }
 
@@ -491,6 +493,12 @@ span {
 
     .portfolio-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .about-img,
+    .about-content {
+        text-align: center;
+        padding: 2rem;
     }
 }
 
