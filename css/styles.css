@@ -23,6 +23,7 @@ html {
 }
 
 body {
+    padding-top: 8rem;
     background: var(--bg-color);
     color: var(--text-color);
 }
