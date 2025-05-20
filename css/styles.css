@@ -113,10 +113,6 @@ span {
     animation: floatImage 4s ease-in-out infinite;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
 }
 
 @keyframes floatImage {
