@@ -529,3 +529,68 @@ span {
     }
 
 }
+
+/* -------------------- Responsive Design -------------------- */
+@media (max-width: 768px) {
+    html {
+        font-size: 55%;
+    }
+
+    .header {
+        padding: 2rem 5%;
+    }
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+        background-color: var(--second-bg-color);
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+    .portfolio-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-content, .about-content {
+        text-align: center;
+    }
+
+    .portfolio-box img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 50%;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        font-size: 2rem;
+    }
+
+    .portfolio-layer h4,
+    .portfolio-layer p {
+        font-size: 1.2rem;
+    }
+}
