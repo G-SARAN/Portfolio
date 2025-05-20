@@ -398,13 +398,17 @@ span {
     }
 }
 
+@media (min-width: 1024px) {
+    section {
+        padding: 6rem 6% 2rem;
+        max-width: 1200px;
+        margin: auto;
+    }
+}
+
 @media (max-width: 991px) {
     .header {
         padding: 2rem 3%;
-    }
-
-    section {
-        padding: 10rem 3% 2rem;
     }
 
     .footer {
