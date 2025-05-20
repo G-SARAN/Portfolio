@@ -463,6 +463,7 @@ span {
 
     .home {
         flex-direction: column;
+        padding-top: 10rem;
     }
 
     .home-content h3 {
