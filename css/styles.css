@@ -29,8 +29,12 @@ body {
 }
 
 section {
-    padding: 6rem 9% 2rem;
-    min-height: auto;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section + section {
+    margin-top: 5rem;
 }
 
 .header {
