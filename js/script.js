@@ -62,11 +62,3 @@ const typed = new Typed('.multiple-text', {
     backDelay: 1000,
     loop: true
     });
-
-// Close navbar when a nav link is clicked (especially for mobile)
-navLinks.forEach((link) => {
-  link.addEventListener("click", () => {
-    menuIcon.classList.remove("bx-x");
-    navbar.classList.remove("active");
-  });
-});
